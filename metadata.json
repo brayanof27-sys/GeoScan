@@ -1,0 +1,6 @@
+{
+  "name": "GeoScan AI - Caracterización Geomecánica",
+  "description": "Sistema automatizado de visión computacional para la caracterización de discontinuidades, cálculo de RQD, RMR, GSI, Sistema Q y recomendaciones de sostenimiento minero a partir de imágenes de frentes rocosos.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

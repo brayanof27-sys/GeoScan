@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #09090b;
+    color: #f4f4f5;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+/* Technical Blueprint Grid (Monochrome) */
+.geometric-grid {
+  background-image: radial-gradient(#27272a 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.geometric-grid-dense {
+  background-image: radial-gradient(#3f3f46 1px, transparent 1px);
+  background-size: 14px 14px;
+}
+
+/* Technical custom scrollbar in Monochrome */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #09090b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 4px;
+  border: 1px solid #18181b;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
+}
